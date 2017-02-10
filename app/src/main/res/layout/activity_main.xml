@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:gravity="center|top"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+            android:id="@+id/mediarecorder_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MediaRecoder录制声音及播放"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            android:id="@+id/audiorecord_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AudioRecord录制声音及播放"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:id="@+id/mediplayer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MediaPlayer播放视频"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:id="@+id/videoview_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VideoView播放视频"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+</LinearLayout>

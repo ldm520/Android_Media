@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mediarecorder</string>
+    <string name="record_fail">录音失败</string>
+    <string name="time_too_short">时间太短，请重新录音</string>
+    <string name="play_over">播放完成</string>
+    <string name="play_error">抱歉，播放发生异常</string>
+    <string name="stop_by_up">松开停止录音</string>
+    <string name="speak_by_press">按住说话</string>
+    <string name="start_record">开始录音</string>
+    <string name="stop_record">停止录音</string>
+    <string name="play_fail_for_not_exist">播放失败，视频文件不存在！</string>
+</resources>
